@@ -7,7 +7,7 @@ async function stravaGetRequest() {
   const stravaAuthUrl = "https://www.strava.com/api/v3/oauth/authorize";
   var client_id = 77581; // Your client id
   var client_secret = "dc82d35848881df36e51ba06e4da5111174f3a0b"; // Your secret
-  var redirect_uri = 'http://localhost:3000/api/auth/callback/strava'; // Your redirect uri
+  var redirect_uri = 'http://localhost:3000/squares'; // Your redirect uri
 
   //https://stackoverflow.com/a/56297795
   const options = {

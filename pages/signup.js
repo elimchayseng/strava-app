@@ -9,13 +9,13 @@ import { signIn } from "next-auth/react"
 class Signup extends Component {
   render() {
     return (
-    //   <div>
-    //   Click to sign into your user account <br />
-    //   <button onClick={() => signIn("strava")}>Sign in</button>
-    //  </div>
       <div>
-        <ConnectWithStravaButton pathname={this.props.pathname} />        
-      </div> 
+      Click to sign into your user account <br />
+      <button onClick={() => signIn("strava")}>Sign in</button>
+     </div>
+      // <div>
+      //   <ConnectWithStravaButton pathname={this.props.pathname} />        
+      // </div> 
     );
   }
 }

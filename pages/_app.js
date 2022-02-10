@@ -1,7 +1,7 @@
-import '../styles/globals.css'
+import Signup from ".//signup"
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp() {
+  return  <Signup />
 }
 
 export default MyApp
